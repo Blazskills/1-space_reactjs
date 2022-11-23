@@ -1,0 +1,181 @@
+.container{
+    background: rgba(255, 255, 255, 0.9);
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    align-items: self-end;
+    /* justify-content: space-around; */
+    padding: 0px 13%;
+    /* padding-bottom: 200px; */
+    position: relative;
+}
+
+
+.hero_bg_text{
+font-family: 'Axiforma';
+font-style: normal;
+font-weight: 700;
+font-size: 58.5056px;
+line-height: 68px;
+color: #000000;
+margin: 0px 0px;
+margin-bottom: 35px;
+padding-left: 55px;
+width: 517px;
+/* padding-bottom: 35px; */
+
+}
+
+
+.hero_sign{
+    padding-left: 65px;
+    margin-bottom: 10px;
+}
+
+.shadow_city_location{
+   
+    display: flex;
+    height: 102px;
+    width: 700px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 95px 0px 30px;
+    background: rgba(243, 243, 243, 0.6);
+    border-radius: 5.22371px;
+    /* border-top-left-radius: 5.22371px;
+    border-bottom-left-radius: 5.22371px; */
+    backdrop-filter: blur(17.7606px);
+    flex-shrink: 0;
+    position: relative;
+    right: 0px;
+    left: 43px;
+    z-index: 5;
+}
+
+.hero_right{
+    position: relative;
+}
+
+.right_img{
+    position: relative;
+    left: -235px;
+}
+
+.city_pin{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    /* column-gap: 5px; */
+}
+
+.city_text{
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.8054px;
+    line-height: 24px;
+    color: #989898;
+}
+
+.location_text{
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.8054px;
+    line-height: 24px;
+    color: #989898;
+}
+
+.booked_images{
+   display: flex;
+   flex-shrink: 0;
+}
+
+.userimg{
+    position: absolute;
+}
+
+/* .user1{
+    position: absolute;
+    left: 0;
+} */
+.user2{
+    position: relative;
+    left: 25px;
+}
+
+.user3{
+    position: relative;
+    left: 14px;
+}
+.user4{
+    position: relative;
+    left: 2px;
+}
+.user5{
+    position: relative;
+    left: -14px;
+}
+.user6{
+    position: relative;
+    left: -26px;
+}
+.user7{
+    position: relative;
+    left: -35px;
+}
+
+.wk_count{
+    position: relative;
+    left: -64px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 10.4474px;
+    text-align: center;
+    /* line-height: 38px; */
+    color: #FFFFFF;
+
+}
+
+.booked_count{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 49px;
+
+}
+
+.booked_text{
+    display: flex;
+    flex-shrink: 0;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.5369px;
+    line-height: 38px;
+    color: #000000;
+}
+
+
+.shadow_btn{
+    width: 176.56px;
+    height: 56.42px;
+    background: #FD5B2F;
+    border-radius: 5.22371px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.7159px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  
+}
+
+.btn_body{
+    margin-right: -52px;
+}

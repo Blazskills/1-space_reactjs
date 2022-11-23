@@ -1,0 +1,9 @@
+.brand_container{
+    padding: 5% 25% 135px 25%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+    flex-grow: 0;
+
+
+}
